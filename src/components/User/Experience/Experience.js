@@ -40,7 +40,7 @@ const Experience = ({ reff }) => {
                 display: "inline",
               }}
             >
-              Technologies:
+              
             </p>
             <p className="d-inline" style={{ fontSize: "13px" }}>
               {" "}
