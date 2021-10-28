@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://celikbackend.herokuapp.com/",
+  baseURL: "https://backendcelik.herokuapp.com/",
 });
 
 export const setAuthorizationToken = (token) => {
@@ -14,4 +14,4 @@ export const setAuthorizationToken = (token) => {
 
 export default api;
 
-export const domainName= "https://celikbackend.herokuapp.com/";
+export const domainName= "https://backendcelik.herokuapp.com/";
