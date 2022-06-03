@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://backendcelik.herokuapp.com/",
+  baseURL: "http://beckend.eu-4.evennode.com/",
 });
 
 export const setAuthorizationToken = (token) => {
