@@ -14,4 +14,4 @@ export const setAuthorizationToken = (token) => {
 
 export default api;
 
-export const domainName= "https://backendcelik.herokuapp.com/";
+export const domainName= "http://beckend.eu-4.evennode.com/";
