@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://beckend.eu-4.evennode.com/",
+  baseURL: "http://bickend.eu-4.evennode.com/",
 });
 
 export const setAuthorizationToken = (token) => {
@@ -14,4 +14,4 @@ export const setAuthorizationToken = (token) => {
 
 export default api;
 
-export const domainName= "http://beckend.eu-4.evennode.com/";
+export const domainName= "http://bickend.eu-4.evennode.com/";
