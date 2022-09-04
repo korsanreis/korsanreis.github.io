@@ -38,7 +38,7 @@ const Projects = ({ reff }) => {
               display: "inline",
             }}
           >
-            Technologies:
+            
           </p>
           <p style={{ fontSize: "12px" }}> {proj.technologies}</p>
           {proj.haveLink && (
