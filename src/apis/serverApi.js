@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://rm4zuibvtg.execute-api.us-east-1.amazonaws.com/",
+  baseURL: "https://bekendcll.onrender.com/",
 });
 
 export const setAuthorizationToken = (token) => {
@@ -14,4 +14,4 @@ export const setAuthorizationToken = (token) => {
 
 export default api;
 
-export const domainName= "https://rm4zuibvtg.execute-api.us-east-1.amazonaws.com/";
+export const domainName= "https://bekendcll.onrender.com/";
